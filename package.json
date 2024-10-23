@@ -12,7 +12,7 @@
   "dependencies": {
     "@consta/header": "^3.0.0",
     "@consta/icons": "^1.1.0",
-    "@consta/table": "^0.0.1",
+    "@consta/table": "^0.1.0-beta",
     "@consta/uikit": "^5.11.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
