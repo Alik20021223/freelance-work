@@ -1,0 +1,27 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.useTabs": true,
+    "prettier.semi": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 4, // размер таба
+    "editor.formatOnSave": true, // форматировать код при сохранении
+    "explorer.compactFolders": false, // компактные папки
+    "editor.smoothScrolling": true, // плавный скролл
+    "workbench.list.smoothScrolling": true, // плавный скролл
+    "terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+    "editor.cursorBlinking": "expand", // мигающей курсор
+    "terminal.integrated.cursorBlinking": true, // мигающей курсор
+    "editor.glyphMargin": false,
+    "editor.linkedEditing": true,
+    "editor.padding.top": 15,
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.mouseWheelZoom": true
+}

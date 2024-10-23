@@ -1,0 +1,16 @@
+.icon-filter {
+  color: var(--color-control-bg-primary);
+  border-color: var(--color-control-primary);
+}
+
+.ct--TableCell_borderLeft {
+  --table-cell-border-left: 0 !important;
+}
+
+.ct--TableCell_borderTop {
+--table-cell-border-top: 0 !important;
+}
+
+/* .ct--TableHeader-Cell{
+
+} */
