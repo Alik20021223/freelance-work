@@ -1,4 +1,4 @@
-import { filterItems } from "@entities/clients/types/types";
+import { ColumnsFilterItem, filterItems } from "@entities/clients/types/types";
 
 export const sortByItems: filterItems[] = [
   {
@@ -17,21 +17,38 @@ export const sortByItems: filterItems[] = [
 
 export const actionItems: filterItems[] = [
   {
-    label: 'Удалить',
+    label: "Удалить",
     id: 1,
   },
   {
-    label: 'Действие 1',
+    label: "Действие 1",
     id: 2,
   },
   {
-    label: 'Действие 2',
+    label: "Действие 2",
     id: 3,
   },
   {
-    label: 'Действие 3',
+    label: "Действие 3",
     id: 4,
   },
 ];
 
+export const filterItemsData: ColumnsFilterItem[] = [
+  { name: "CLIENT ID" },
+  { name: "ФИО" },
+  { name: "Телефон" },
+  { name: "Email" },
+  { name: "Сегменты" },
+  { name: "Еще один пункт 1" },
+  { name: "Еще один пункт 2" },
+  { name: "Еще один пункт 3" },
+];
 
+export const DefaultFilterItems: ColumnsFilterItem[] = [
+  { name: "CLIENT ID" },
+  { name: "ФИО" },
+  { name: "Телефон" },
+  { name: "Email" },
+  { name: "Сегменты" }
+];

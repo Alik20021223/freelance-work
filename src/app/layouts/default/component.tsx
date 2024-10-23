@@ -8,7 +8,7 @@ const DefaultLayout = () => {
             <Header />
             <section className="flex">
                 <Sidebar />
-                <main className="container mx-auto pt-[92px]">
+                <main className="container mx-auto pt-[92px] pb-8">
                     <Outlet />
                 </main>
             </section>

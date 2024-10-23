@@ -5,6 +5,11 @@ export type filterItems = {
   id: number;
 };
 
+export type ColumnsFilterItem = {
+  name: string;
+  disabled?: boolean;
+}
+
 export type Badge = {
   text: string;
   color: BadgePropStatus;
