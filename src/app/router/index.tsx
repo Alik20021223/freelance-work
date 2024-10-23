@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
         element: <DefaultLayout />,
         children: [
             {
-                path: PATH.CLIENTS,
+                path: PATH.PREFIX,
                 element: <ClientPage/>,
             }
         ]
